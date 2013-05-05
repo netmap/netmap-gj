@@ -1,0 +1,29 @@
+<% wrap_layout :base do %>
+  <div class="contain-to-grid">
+    <nav class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">NetMap Game Jam</a></h1>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="left">
+          <li><a href="/theme.html">Theme</a></li>
+          <li><a href="/schedule.html">Schedule</a></li>
+          <li><a href="/venue.html">Venue</a></li>
+        </ul>
+        <ul class="right">
+          <li class="has-form">
+            <a class="small button" href="/signup.html">Sign Up</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+
+  <div class="row">
+    <div class="twelve columns">
+      <%= yield %>
+    </div>
+  </div>
+<% end %>
