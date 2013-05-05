@@ -1,0 +1,46 @@
+lines:
+  - day: Sat, May 27
+    time: 9:00am
+    desc: Breakfast
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 10:00pm
+    desc: Theme Description
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 10:30pm
+    desc: Team Formation
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 12:00pm
+    desc: Lunch
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 6:00pm
+    desc: Dinner
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 8:00pm
+    desc: Informal Presentations
+    room: 32-G4XX (Kiva)
+  - day: Sun, May 28
+    time: 9:00am
+    desc: Breakfast
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 12:00pm
+    desc: Lunch
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 5:00pm
+    desc: Presentations
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 6:00pm
+    desc: Dinner
+    room: 32-G4XX (Kiva)
+  - day:
+    time: 7:00pm
+    desc: Awards
+    room: 32-G4XX (Kiva)
+

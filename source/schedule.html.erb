@@ -7,72 +7,14 @@ pageable: true
 
   <table>
     <tbody>
+      <% data.schedule.lines.each do |line| %>
       <tr>
-        <td>Sat, May 18</td>
-        <td>9:00am</td>
-        <td>Breakfast</td>
-        <td>32G-4XX (Kiva)</td>
+        <td><%= line.day %></td>
+        <td><%= line.time %></td>
+        <td><%= line.desc %></td>
+        <td><%= line.room %></td>
       </tr>
-      <tr>
-        <td></td>
-        <td>10:00am</td>
-        <td>Theme Description</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>10:30am</td>
-        <td>Team Formation</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>12:00pm</td>
-        <td>Lunch</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>6:00pm</td>
-        <td>Dinner</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>8:00pm</td>
-        <td>Presentations</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td>Sun, May 19</td>
-        <td>9:00am</td>
-        <td>Breakfast</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>12:00pm</td>
-        <td>Lunch</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>5:00pm</td>
-        <td>Presentations</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>6:00pm</td>
-        <td>Dinner</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>7:00pm</td>
-        <td>Awards</td>
-        <td>32G-4XX (Kiva)</td>
-      </tr>
+      <% end %>
     </tbody>
   </table>
 </article>

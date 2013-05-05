@@ -35,8 +35,6 @@ end
 # Page options, layouts, aliases and proxies
 ###
 
-layout :page
-
 # With no layout
 page "robots.txt", :layout => false
 page "humans.txt", :layout => false
@@ -84,7 +82,7 @@ configure :build do
   activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
