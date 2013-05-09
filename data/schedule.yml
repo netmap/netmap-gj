@@ -1,15 +1,19 @@
 lines:
-  - day: Sat, May 27
+  - day: Fri, May 17
+    time: 7:00pm
+    desc: Introductions and Dinner
+    room: 32-G449 (Kiva)
+  - day:
+    time: 7:30pm
+    desc: Theme Description
+    room: 32-G449 (Kiva)
+  - day:
+    time: 8:00pm
+    desc: Team Formation
+    room: 32-G4XX (Kiva)
+  - day: Sat, May 18
     time: 9:00am
     desc: Breakfast
-    room: 32-G4XX (Kiva)
-  - day:
-    time: 10:00pm
-    desc: Theme Description
-    room: 32-G4XX (Kiva)
-  - day:
-    time: 10:30pm
-    desc: Team Formation
     room: 32-G4XX (Kiva)
   - day:
     time: 12:00pm
@@ -23,7 +27,7 @@ lines:
     time: 8:00pm
     desc: Informal Presentations
     room: 32-G4XX (Kiva)
-  - day: Sun, May 28
+  - day: Sun, May 19
     time: 9:00am
     desc: Breakfast
     room: 32-G4XX (Kiva)
@@ -33,7 +37,7 @@ lines:
     room: 32-G4XX (Kiva)
   - day:
     time: 5:00pm
-    desc: Presentations
+    desc: Final Presentations
     room: 32-G4XX (Kiva)
   - day:
     time: 6:00pm
