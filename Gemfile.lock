@@ -1,10 +1,46 @@
 GIT
+  remote: git://github.com/middleman/middleman.git
+  revision: 37e22c040ebcabed0ac3d8bce85aa085177d012a
+  specs:
+    middleman (3.1.0.beta.4)
+      coffee-script (~> 2.2.0)
+      compass (>= 0.12.2)
+      execjs (~> 1.4.0)
+      haml (>= 3.1.6)
+      kramdown (~> 1.0.0)
+      middleman-core (= 3.1.0.beta.4)
+      middleman-sprockets (>= 3.0.10)
+      padrino-helpers (= 0.10.7)
+      sass (>= 3.1.20)
+      uglifier (~> 2.0.1)
+    middleman-core (3.1.0.beta.4)
+      activesupport (~> 3.2.6)
+      bundler (~> 1.1)
+      i18n (~> 0.6.1)
+      listen (~> 1.0.2)
+      rack (>= 1.4.5)
+      rack-test (~> 0.6.1)
+      thor (~> 0.15.2)
+      tilt (~> 1.3.6)
+
+GIT
   remote: git://github.com/pwnall/foundation.git
   revision: 421c7f31e19e914f8b0928b817182ba605602756
   ref: sprockets
   specs:
     zurb-foundation (4.1.5)
       sass (>= 3.2.0)
+
+GIT
+  remote: git://github.com/pwnall/middleman-sprockets.git
+  revision: 6b84c0fb027984ca3a50f51c725d907dd18b5f77
+  branch: helpers
+  specs:
+    middleman-sprockets (3.1.0)
+      middleman-core (>= 3.0.11)
+      sprockets (~> 2.1)
+      sprockets-helpers (~> 1.0.0)
+      sprockets-sass (~> 1.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -33,39 +69,12 @@ GEM
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
     i18n (0.6.4)
-    kramdown (1.0.1)
+    kramdown (1.0.2)
     listen (1.0.3)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
-    middleman (3.1.0.beta.3)
-      middleman-core (= 3.1.0.beta.3)
-      middleman-more (= 3.1.0.beta.3)
-      middleman-sprockets (>= 3.0.10)
-    middleman-core (3.1.0.beta.3)
-      activesupport (~> 3.2.6)
-      bundler (~> 1.1)
-      listen (~> 1.0.2)
-      rack (>= 1.4.5)
-      rack-test (~> 0.6.1)
-      thor (~> 0.15.2)
-      tilt (~> 1.3.6)
-    middleman-more (3.1.0.beta.3)
-      coffee-script (~> 2.2.0)
-      compass (>= 0.12.2)
-      execjs (~> 1.4.0)
-      haml (>= 3.1.6)
-      i18n (~> 0.6.1)
-      kramdown (~> 1.0.0)
-      middleman-core (= 3.1.0.beta.3)
-      padrino-helpers (= 0.10.7)
-      sass (>= 3.1.20)
-      uglifier (~> 2.0.1)
-    middleman-sprockets (3.1.0)
-      middleman-more (>= 3.0.11)
-      sprockets (~> 2.1)
-      sprockets-sass (~> 1.0.0)
-    multi_json (1.7.2)
+    multi_json (1.7.3)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -86,7 +95,7 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (2.2.2)
-    sass (3.2.8)
+    sass (3.2.9)
     sinatra (1.3.6)
       rack (~> 1.4)
       rack-protection (~> 1.3)
@@ -98,7 +107,9 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-sass (1.0.0)
+    sprockets-helpers (1.0.1)
+      sprockets (~> 2.0)
+    sprockets-sass (1.0.1)
       sprockets (~> 2.0)
       tilt (~> 1.1)
     thor (0.15.4)
@@ -116,7 +127,8 @@ PLATFORMS
 DEPENDENCIES
   builder (~> 3.2.0)
   compass (~> 0.12.2)
-  middleman (~> 3.1.0.beta3)
+  middleman (~> 3.1.0.beta4)!
+  middleman-sprockets!
   redcarpet (~> 2.2.2)
   sitemap_generator
   tzinfo
