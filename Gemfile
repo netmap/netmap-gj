@@ -11,6 +11,7 @@ gem 'builder', '~> 3.2.0'
 
 # CSS
 gem 'compass', '~> 0.12.2'
+gem 'font-awesome-middleman', '~> 1.0.1'
 gem 'zurb-foundation', '~> 4.3.2', require: false
 
 # JS
