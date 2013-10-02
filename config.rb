@@ -4,7 +4,6 @@ Time.zone = "America/New_York"
 # Tilt templating languages
 ###
 
-require 'coffee-script'
 require 'redcarpet'
 
 ###
@@ -21,6 +20,7 @@ require 'redcarpet'
 ###
 
 activate :sprockets
+require 'coffee-script'
 require 'compass'
 require 'zurb-foundation'
 

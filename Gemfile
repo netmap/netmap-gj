@@ -1,13 +1,19 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem 'middleman', '~> 3.1.0.beta4',
-    git: 'git://github.com/middleman/middleman.git'
-gem 'middleman-sprockets', '~> 3.1.1',
-    git: 'git://github.com/middleman/middleman-sprockets.git'
-gem 'redcarpet', '~> 2.2.2'
-gem 'builder', '~> 3.2.0'
-gem 'compass', '~> 0.12.2'
-gem 'zurb-foundation', '~> 4.1.5', require: false,
-    git: 'git://github.com/pwnall/foundation.git', ref: 'sprockets'
+gem 'middleman', '~> 3.1.5'
+gem 'middleman-sprockets', '~> 3.1.4'
 gem 'sitemap_generator'
 gem 'tzinfo'
+
+# HTML
+gem 'redcarpet', '~> 2.2.2'
+gem 'builder', '~> 3.2.0'
+
+# CSS
+gem 'compass', '~> 0.12.2'
+gem 'zurb-foundation', '~> 4.3.2', require: false
+
+# JS
+gem 'coffee-script', '~> 2.2.0'
+gem 'coffee-script-source', '~> 1.6.3'
+gem 'therubyracer', '>= 0.11.0'
